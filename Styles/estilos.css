@@ -84,3 +84,87 @@ ul {
 .iconoBuscar:hover {
     color: blue;
 }
+
+.contImagen {
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contImagen > img {
+    object-fit:cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.breedCardContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.breedCard {
+    margin: 10px;
+    background-color: cadetblue;
+    box-shadow: 5px 10px 5px gray;
+    border-radius: 10px;
+}
+
+.breedCard:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+}
+
+.breedTitle {
+    display: flex;
+    color: white;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.reactions {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(70, 157, 160);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.heartRed {
+    color: red;
+}
+
+.heartRed:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.comment {
+    color: azure;
+}
+
+.comment:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.views {
+    color: azure;
+}
+
+.views:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
