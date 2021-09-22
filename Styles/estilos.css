@@ -4,9 +4,11 @@ header {
 }
 
 .contenedor {
-    background-color: azure;
+    background-color:white;
     margin: 0px;
     padding: 5px;
+    border-radius: 50px;
+    box-shadow: 1px 1px gray;
 }
 
 body {
@@ -64,8 +66,11 @@ ul {
 .buscar {
     background-color: white;
     border: 1px solid gray;
-    padding: 4px;
+    padding: 5px;
     border-radius: 9px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within {
@@ -74,4 +79,8 @@ ul {
 
 .buscar > input {
     border: 0px;
+}
+
+.iconoBuscar:hover {
+    color: blue;
 }
