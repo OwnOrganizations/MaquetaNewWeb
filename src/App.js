@@ -1,127 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles/estilos.css"/>
-    <link rel="shortcut icon" href="./Media/favicon.png" type="image/x-icon"/>
-    <script src="https://kit.fontawesome.com/6396d12f7f.js" crossorigin="anonymous"></script>
-    <title>Razas de Perros</title>
-</head>
-<body>
-    <header>
-        <form class="contenedor">
-            <ul class="navbar">
+import logo from './Media/favicon.png';
+import './styles/style.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <form className="contenedor">
+            <ul className="navbar">
                 <li>
-                    <img src="./Media/favicon.png" alt="imagen" class="logo"/>
+                    <img src={logo} alt="imagen" className="logo"/>
                 </li>
                 <li>
-                    <button class="button secondaryButton">Iniciar Sesión</button>
+                    <button className="button secondaryButton">Iniciar Sesión</button>
                 </li>
                 <li>
-                    <button class="button secondaryButton">Registro</button>
+                    <button className="button secondaryButton">Registro</button>
                 </li>
                 <li>
-                    <button class="button mainButton">New Post</button>
+                    <button className="button mainButton">New Post</button>
                 </li>
                 <li>
-                    <div class="buscar">
+                    <div className="buscar">
                         <input placeholder="Buscar una raza"/>
-                        <i class="fas fa-search button iconoBuscar"></i>                    
+                        <i className="fas fa-search button iconoBuscar"></i>                    
                     </div>
                 </li>
             </ul>    
         </form>
-    </header>
-    <main>
+      </header>
+      <main>
         <section>
             <h1>Razas de Perros</h1>
-            <ul class="breedCardContainer">
-                <li class="breedCard">
-                    <div class="contImagen">
+            <ul className="breedCardContainer">
+                <li className="breedCard">
+                    <div className="contImagen">
                         <img src="https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=686&q=80" alt="Border Collie"/>
                     </div>
-                    <span class="breedTitle">
+                    <span className="breedTitle">
                         Border Collie
                     </span>
-                    <ul class="reactions">
+                    <ul className="reactions">
                         <li>
-                            <i class="fas fa-heart heartRed"></i>
+                            <i className="fas fa-heart heartRed"></i>
                             240
                         </li>
                         <li>
-                            <i class="fas fa-comment-dots comment"></i>
+                            <i className="fas fa-comment-dots comment"></i>
                             2.3K
                         </li>
                         <li>
-                            <i class="fas fa-eye views"></i>
+                            <i className="fas fa-eye views"></i>
                             350
                         </li>
                     </ul>
                 </li>
-                <li class="breedCard">
-                    <div class="contImagen">
+                <li className="breedCard">
+                    <div className="contImagen">
                         <img src="https://images.unsplash.com/photo-1561053522-1e4ead3277f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80" alt="Rhodesian"/>
                     </div>
-                    <span class="breedTitle">
+                    <span className="breedTitle">
                         Rhodesian
                     </span>
-                    <ul class="reactions">
+                    <ul className="reactions">
                         <li>
-                            <i class="fas fa-heart heartRed"></i>
+                            <i className="fas fa-heart heartRed"></i>
                             140
                         </li>
                         <li>
-                            <i class="fas fa-comment-dots comment"></i>
+                            <i className="fas fa-comment-dots comment"></i>
                             3.8K
                         </li>
                         <li>
-                            <i class="fas fa-eye views"></i>
+                            <i className="fas fa-eye views"></i>
                             100
                         </li>
                     </ul>
                 </li>
-                <li class="breedCard">
-                    <div class="contImagen">
+                <li className="breedCard">
+                    <div className="contImagen">
                         <img src="https://images.unsplash.com/photo-1617895153857-82fe79adfcd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" alt="Husky"/>
                     </div>
-                    <span class="breedTitle">
+                    <span className="breedTitle">
                         Husky
                     </span>
-                    <ul class="reactions">
+                    <ul className="reactions">
                         <li>
-                            <i class="fas fa-heart heartRed"></i>
+                            <i className="fas fa-heart heartRed"></i>
                             240
                         </li>
                         <li>
-                            <i class="fas fa-comment-dots comment"></i>
+                            <i className="fas fa-comment-dots comment"></i>
                             1.1K
                         </li>
                         <li>
-                            <i class="fas fa-eye views"></i>
+                            <i className="fas fa-eye views"></i>
                             900
                             </li>
                     </ul>
                 </li>
-                <li class="breedCard">
-                    <div class="contImagen">
+                <li className="breedCard">
+                    <div className="contImagen">
                         <img src="https://images.unsplash.com/photo-1437957146754-f6377debe171?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80" alt="Border Collie"/>
                     </div>
-                    <span class="breedTitle">
+                    <span className="breedTitle">
                         Shitzu
                     </span>
-                    <ul class="reactions">
+                    <ul className="reactions">
                         <li>
-                            <i class="fas fa-heart heartRed"></i>
+                            <i className="fas fa-heart heartRed"></i>
                             580
                         </li>
                         <li>
-                            <i class="fas fa-comment-dots comment"></i>
+                            <i className="fas fa-comment-dots comment"></i>
                             5.1K
                         </li>
                         <li>
-                            <i class="fas fa-eye views"></i>
+                            <i className="fas fa-eye views"></i>
                             600
                         </li>
                     </ul>
@@ -129,7 +123,10 @@
             </ul>
         </section>
         <section></section>
-    </main>
-    <footer></footer>
-</body>
-</html>
+      </main>
+      <footer></footer>
+    </div>
+  );
+}
+
+export default App;
