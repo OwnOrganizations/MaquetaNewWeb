@@ -44,3 +44,18 @@ ul {
 .secondaryButton:hover {
     box-shadow: 2px 2px orange;
 }
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 9px;
+}
+
+.buscar:focus-within {
+    border: 1px solid rgb(68, 106, 212);
+}
+
+.buscar > input {
+    border: 0px;
+}
