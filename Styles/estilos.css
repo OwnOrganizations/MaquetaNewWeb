@@ -47,6 +47,7 @@ ul {
 .mainButton {
     background-color:aquamarine;
     color: white;
+    width: 150px;
 }
 
 .mainButton:hover {
@@ -57,6 +58,7 @@ ul {
 .secondaryButton {
     background-color:coral;
     color: white;
+    width: 150px;
 }
 
 .secondaryButton:hover {
