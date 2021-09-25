@@ -50,7 +50,7 @@ function App() {
                         </li>
                         <li>
                             <i className="fas fa-eye views"></i>
-                            350
+                            450
                         </li>
                     </ul>
                 </li>
