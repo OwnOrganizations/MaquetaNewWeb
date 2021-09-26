@@ -1,7 +1,6 @@
 import './styles/style.css';
 import logo from './Media/favicon.png';
-import './components/components';
-
+import CardRazasPerros from './components/componentsCards';
 function App() {
     return (
         <div className="App">
