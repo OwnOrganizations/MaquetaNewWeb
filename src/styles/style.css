@@ -3,6 +3,21 @@ header {
   padding: 30px;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main {
+  height: 100%;
+}
+
+.mainContainer > footer {
+  background-color: cadetblue;
+  padding: 10px;
+}
+
 .contenedor {
   background-color:white;
   margin: 0px;
